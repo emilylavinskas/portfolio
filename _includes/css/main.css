@@ -361,7 +361,6 @@ body {
         position: absolute;
         height: 1.25em;
         margin-top: 1em;
-        margin-left: 2em;
     }
 
     .pp-main-title {
@@ -532,11 +531,11 @@ body {
     /* Portfolio Pieces -- Desktop */
 
     .pp-back-button {
-        float: left;
+        float: top;
         position: relative;
         height: 1.25em;
         margin-top: .25em;
-        margin-left: 2em;
+        margin-left: 1.5em;
     }
 
     .pp-main-title {
