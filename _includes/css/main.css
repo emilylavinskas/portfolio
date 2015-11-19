@@ -227,66 +227,71 @@ body {
 
 /* Portfolio Pieces -- Mobile */
 
-    .pp-back-button {
-        float: top;
-        position: relative;
-        height: 1em;
-        margin-top: 2em;
-    }
+.pp-back-button {
+    float: top;
+    position: relative;
+    height: 1em;
+    margin-top: 2em;
+}
 
-    .pp-main-title {
-        font-family: 'Poiret One', sans-serif;
-        text-transform: uppercase;
-        font-size: 2.25em;
-        color: #8c6f4b;
-        letter-spacing: .2em;
-        margin-right: .5em;
-        margin-left: .5em;
-        margin-top: 1em;
-    }
+.pp-main-title {
+    font-family: 'Poiret One', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.25em;
+    color: #8c6f4b;
+    letter-spacing: .2em;
+    margin-right: .5em;
+    margin-left: .5em;
+    margin-top: 1em;
+}
 
-    .pp-sub-title {
-        font-family: 'Raleway', sans-serif;
-        text-transform: uppercase;
-        font-size: 1em;
-        letter-spacing: .2em;
-        margin-bottom: 2.25em;
-        margin-top: -.75em;
-    }
+.pp-sub-title {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: .2em;
+    margin-bottom: 2.25em;
+    margin-top: -.75em;
+}
 
-    hr {
-        border: 0;
-        border-bottom: 1px dotted #fff;
-        background: #000;
-        margin-left: 1.5em;
-        margin-right: 1.5em;
-    }
+hr {
+    border: 0;
+    border-bottom: 1px dotted #fff;
+    background: #000;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
 
-    .pp-desc-section {
-        margin-bottom: 3.5em;
-    }
+.pp-desc-section {
+    margin-bottom: 3.5em;
+}
 
-    .pp-title {
-        font-family: 'Poiret One', sans-serif;
-        font-size: 1.25em;
-        text-transform: uppercase;
-        color: #559cb4;
-        letter-spacing: .2em;
-        margin-top: 2em;
-    }
+.pp-title {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: #559cb4;
+    letter-spacing: .2em;
+    margin-top: 2em;
+}
 
-    .pp-body-copy {
-        font-family: 'Raleway', sans-serif;
-        line-height: 1.5em;
-        margin-right: 1em;
-        margin-left: 1em;
-        margin-top: -1em;
-    }
+.pp-body-copy {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: -1em;
+}
 
-    .pp-process-images {
-        margin-bottom: -.25em;
-        width: 100%;
-    }
+.pp-process-images {
+    margin-bottom: -.25em;
+    width: 100%;
+}
+
+.view-more {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
 
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
    
