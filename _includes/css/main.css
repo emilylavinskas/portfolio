@@ -359,7 +359,7 @@ body {
 
     .pp-back-button {
         float: left;
-        position: relative;
+        position: absolute;
         height: 1.25em;
         margin-top: 1em;
         margin-left: 2em;
@@ -373,7 +373,6 @@ body {
         letter-spacing: .2em;
         margin-right: .5em;
         margin-left: .5em;
-
     }
 
     .pp-sub-title {
@@ -586,7 +585,7 @@ body {
         line-height: 1.5em;
         margin-top: -1em;
         display: inline-block;
-        width: 33.3333%;
+        width: 45%;
     }
 
     .pp-process-images {
