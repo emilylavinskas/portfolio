@@ -358,7 +358,7 @@ body {
 
     .pp-back-button {
         float: left;
-        position: absolute;
+        position: relative;
         height: 1.25em;
         margin-top: 1em;
     }
