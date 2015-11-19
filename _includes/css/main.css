@@ -291,6 +291,7 @@ hr {
 .view-more {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    text-align: center;
 }
 
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
