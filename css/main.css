@@ -139,8 +139,8 @@ body {
 .bio {
     font-family: 'Raleway', sans-serif;
     line-height: 25px;
-    padding-left: .5em;
-    padding-right: .5em;
+    padding-left: .125em;
+    padding-right: .125em;
     padding-bottom: 1.5em;
 }
 
@@ -366,7 +366,7 @@ body {
     .nav .nav-current:link,
     .nav .nav-current:visited {
 
-      color: #8c6f4b;
+      color: #fff;
     } 
     
     .toggle {
@@ -404,3 +404,7 @@ body {
         text-align: center;
     }
 }
+
+/* Portfolio Pieces */
+
+    
