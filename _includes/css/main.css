@@ -288,12 +288,6 @@ hr {
     width: 100%;
 }
 
-.view-more {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-}
-
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
    
     .about-section {
@@ -329,7 +323,7 @@ hr {
     .billboard-text {
         font-size: 4em;
         width: 70%;
-        border: 2px solid ##8c6f4b;
+        border: 2px solid #8c6f4b;
         top: 8em;
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50);
