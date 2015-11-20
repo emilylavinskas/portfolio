@@ -592,3 +592,9 @@ hr {
         display: inline-block;
     }
 }
+
+.back-top {
+    float: top;
+    position: relative;
+    height: 1.5em;
+}
