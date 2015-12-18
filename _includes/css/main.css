@@ -601,3 +601,14 @@ hr {
     position: relative;
     height: 1.5em;
 }
+
+/* 404 CSS */
+
+.page-404 {
+    background-color: #97bccd;
+}
+.title-404 {
+    text-align: center;
+    font-size: 6em;
+    font-family: sans-serif;
+}
