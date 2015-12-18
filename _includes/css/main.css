@@ -72,7 +72,7 @@ body {
     letter-spacing: .2em;
     display: inline-block;
     text-decoration: none;
-    padding-top: 1.1em;
+    padding-top: 1.5em;
     padding-right: 1.5em;
     margin: 0 auto;
     font-size: .6em;
@@ -338,6 +338,7 @@ hr {
 
     .nav li {
         font-size: 1em;
+        padding-top: 1.5em;
     }
     
     .wordmark {
@@ -475,8 +476,8 @@ hr {
     
      .nav li {
         font-size: 1em;
+        padding-top: 1.5em;
     }
-    
     
     .wordmark {
         position: absolute;
