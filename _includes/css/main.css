@@ -58,42 +58,42 @@ body {
     margin-bottom: 1em;
 }
 
-    .nav {
-        list-style-type: none;
-        text-align: right;
-        position: absolute;
-        right: 0em;
-        display: flex;
-    }
+.nav {
+    list-style-type: none;
+    text-align: right;
+    position: absolute;
+    right: 0em;
+    display: flex;
+}
 
-    .nav li {
-        font-family: 'Poiret One', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: .2em;
-        display: inline-block;
-        text-decoration: none;
-        padding-top: 1.1em;
-        padding-right: 1.5em;
-        margin: 0 auto;
-    }
+.nav li {
+    font-family: 'Poiret One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 1.1em;
+    padding-right: 1.5em;
+    margin: 0 auto;
+}
 
-    .nav a,
-    .nav a:link,
-    .nav a:visited {
-      display: block;
-      color: #000;
-      text-decoration: none;
-    }
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
 
-    .nav a:hover,
-    .nav a:focus,
-    .nav a:active,
-    .nav .nav-current,
-    .nav .nav-current:link,
-    .nav .nav-current:visited {
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
 
-      color: #fff;
-    } 
+  color: #fff;
+} 
 
 .toggle {
     position: absolute;
@@ -259,6 +259,18 @@ body {
 }
 
 /* Portfolio Pieces -- Mobile */
+
+.nav li {
+    font-family: 'Poiret One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 1.1em;
+    padding-right: 1.5em;
+    margin: 0 auto;
+    font-size: .75em;
+}
 
 .pp-back-button {
     float: top;
