@@ -604,11 +604,25 @@ hr {
 
 /* 404 CSS */
 
-.page-404 {
+.title-404 {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 3em;
+    text-align: center;
     color: #97bccd;
 }
 
-.return-home {
+.ex-404 {
+    text-transform: uppercase;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
+}
+
+.return-home {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: #97bccd;
 }
     
