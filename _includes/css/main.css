@@ -291,7 +291,7 @@ hr {
     background: #000;
     left: 5em;
     right: 5em;
-    margin-top: 2.5em;
+    margin-top: 1em;
 }
 
 .pp-desc-section {
@@ -636,6 +636,18 @@ hr {
 .pf-bb {
     position: relative;
     background-image: url("../images/pf-cp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.dbdn-bb {
+    position: relative;
+    background-image: url("../images/dbdn-cp.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
