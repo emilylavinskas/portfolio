@@ -261,27 +261,24 @@ body {
 
 /* Portfolio Pieces -- Mobile */
 
-.pp-back-button {
-    float: top;
-    position: relative;
-    height: 1em;
-    margin-top: 2em;
-}
-
 .pp-main-title {
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    margin-top: 4.5em;
     font-family: 'Poiret One', sans-serif;
     text-transform: uppercase;
     font-size: 2.25em;
-    color: #8c6f4b;
     letter-spacing: .2em;
-    margin-right: .5em;
-    margin-left: .5em;
-    margin-top: 1em;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50);
+    transform: translateY(-50%);
 }
 
 .pp-sub-title {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    color: #fff;
     font-size: 1em;
     letter-spacing: .2em;
     margin-bottom: 2.25em;
@@ -320,6 +317,16 @@ hr {
 .pp-process-images {
     margin-bottom: -.25em;
     width: 100%;
+}
+   
+.pp-back-button {
+    float: top;
+    left: .25em;
+    top: 1.25em;
+    position: absolute;
+    height: 1.25em;
+    margin-top: .25em;
+    margin-left: 1.5em;
 }
 
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
@@ -393,6 +400,7 @@ hr {
         text-align: center;
     }
     
+    
     /* Portfolio Pieces -- Tablet */
 
     .pp-back-button {
@@ -407,7 +415,6 @@ hr {
         font-family: 'Poiret One', sans-serif;
         text-transform: uppercase;
         font-size: 2.25em;
-        color: #8c6f4b;
         letter-spacing: .2em;
         margin-right: .5em;
         margin-left: .5em;
@@ -455,6 +462,16 @@ hr {
         width: 33.3333%;
         display: inline-block;
         float: left;
+    }
+    
+    .pp-back-button {
+        float: top;
+        left: .25em;
+        top: 1em;
+        position: absolute;
+        height: 1.25em;
+        margin-top: .25em;
+        margin-left: 1.5em;
     }
 }
 
@@ -534,19 +551,10 @@ hr {
 
     /* Portfolio Pieces -- Desktop */
 
-    .pp-back-button {
-        float: top;
-        position: relative;
-        height: 1.25em;
-        margin-top: .25em;
-        margin-left: 1.5em;
-    }
-
     .pp-main-title {
         font-family: 'Poiret One', sans-serif;
         text-transform: uppercase;
         font-size: 2.25em;
-        color: #8c6f4b;
         letter-spacing: .2em;
         margin-right: .5em;
         margin-left: .5em;
@@ -561,12 +569,20 @@ hr {
         margin-top: -.75em;
     }
 
-    hr {
-        border: 0;
-        border-bottom: 1px dotted #fff;
-        background: #000;
-        margin-left: 12em;
-        margin-right: 12em;
+    .tools-icons-placement {
+        position: relative;
+        display: inline-block;
+    }
+
+    .tools-icons {
+        display: inline-block;
+        margin: -2em;
+    }
+
+    .tools {
+        display: inline-block;
+        height: 4.5em;
+        vertical-align: top;   
     }
 
     .pp-desc-section {
@@ -601,28 +617,44 @@ hr {
     position: relative;
     height: 1.5em;
 }
-
-/* 404 CSS */
-
-.title-404 {
-    font-family: 'Poiret One', sans-serif;
-    font-size: 3em;
-    text-align: center;
-    color: #97bccd;
-}
-
-.ex-404 {
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-}
-
-.return-home {
-    letter-spacing: .2em;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    list-style-type: none;
-    color: #97bccd;
-}
     
+/* MAGLAY-LORDE CSS */
+
+.maglay-bb {
+    position: relative;
+    background-image: url("../images/maglay2-cp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.fade:hover {
+  opacity: 0.5;
+}
+
+.tools-icons-placement {
+    position: relative;
+    display: inline-block;
+}
+
+.tools-icons {
+    display: inline-block;
+    margin: -2em;
+}
+
+.tools {
+    display: inline-block;
+    height: 4.5em;
+    vertical-align: top;   
+}
