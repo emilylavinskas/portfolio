@@ -289,8 +289,9 @@ hr {
     border: 0;
     border-bottom: 1px dotted #fff;
     background: #000;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    left: 5em;
+    right: 5em;
+    margin-top: 2.5em;
 }
 
 .pp-desc-section {
@@ -623,6 +624,18 @@ hr {
 .maglay-bb {
     position: relative;
     background-image: url("../images/maglay2-cp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.pf-bb {
+    position: relative;
+    background-image: url("../images/pf-cp.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
