@@ -481,7 +481,7 @@ hr {
     .billboard-text {
         font-size: 4em;
         width: 70%;
-        border: 2px solid ##8c6f4b;
+        border: 2px solid #8c6f4b;
         top: 6em;
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50);
