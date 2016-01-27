@@ -683,3 +683,20 @@ hr {
     height: 4.5em;
     vertical-align: top;   
 }
+
+.location {
+    text-align: center;
+}
+
+.location-tack {
+    display: inline-block;
+    margin-top: .75em;
+    margin-right: .25em;
+    height: 1.5em;
+    vertical-align: top;  
+}
+
+.location-p {
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+}
