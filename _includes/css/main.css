@@ -657,7 +657,7 @@ hr {
     z-index: -1;
 }
 
-f.fade {
+f/*.fade {
    opacity: 1;
    transition: opacity .15s ease-in-out;
    -moz-transition: opacity .15s ease-in-out;
@@ -665,7 +665,7 @@ f.fade {
    }
 
 ..fade:hover {
-  opacity: 0.5;
+  opacity: 0.5; */
 }
 
 .tools-icons-placement {
