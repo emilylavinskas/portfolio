@@ -1,1 +1,1 @@
-$('.back-top').localScroll();
+$('.scrollup').localScroll();
