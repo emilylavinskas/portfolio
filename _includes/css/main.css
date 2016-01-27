@@ -657,15 +657,15 @@ hr {
     z-index: -1;
 }
 
-./* fade {
+f.fade {
    opacity: 1;
    transition: opacity .15s ease-in-out;
    -moz-transition: opacity .15s ease-in-out;
    -webkit-transition: opacity .15s ease-in-out;
    }
 
-.fade:hover {
-  opacity: 0.5; */
+..fade:hover {
+  opacity: 0.5;
 }
 
 .tools-icons-placement {
