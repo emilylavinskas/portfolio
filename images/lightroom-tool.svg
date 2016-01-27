@@ -7,10 +7,23 @@
 	.st1{fill:#FFFFFF;}
 </style>
 <circle id="Layer_1_1_" class="st0" cx="216.8" cy="216.8" r="216.8"/>
+<path class="st1" d="M294,204.7v-1.2C293.8,204.2,294,204.7,294,204.7z"/>
 <g>
-	<rect x="116.7" y="112.7" class="st1" width="34.7" height="209.3"/>
-	<rect x="259.3" y="180" class="st1" width="34.7" height="142.6"/>
-	<polygon class="st1" points="151.3,292 232.7,292 226.7,322.6 134,322.6 	"/>
-	<path class="st1" d="M294,204.7c0,0-4-8,37.3-7.3V166c0,0-42.6-2.9-72,14L294,204.7z"/>
+	
+		<image style="overflow:visible;opacity:0.5;" width="171" height="264" xlink:href="C74841FA70CA5CE9.png"  transform="matrix(1 0 0 1 99 94.6)">
+	</image>
+	<g>
+		<polygon class="st1" points="232.7,292 226.7,322.6 134,322.6 134.3,322 116.7,322 116.7,112.7 151.4,112.7 151.4,292 		"/>
+	</g>
 </g>
+<g>
+	
+		<image style="overflow:visible;opacity:0.5;" width="127" height="211" xlink:href="C74841FA70CA5CEB.png"  transform="matrix(1 0 0 1 242 147.6)">
+	</image>
+	<g>
+		<path class="st1" d="M331.3,166v31.4c-25.5-0.4-33.7,2.5-36.3,4.7c-0.6,0.5-0.9,1-1,1.4c-0.2,0.7,0,1.2,0,1.2v117.9h-34.7V180
+			C288.7,163.1,331.3,166,331.3,166z"/>
+	</g>
+</g>
+<path class="st1" d="M295,202.1l-1,2.6c0,0-0.2-0.5,0-1.2C294.1,203.1,294.4,202.6,295,202.1z"/>
 </svg>
