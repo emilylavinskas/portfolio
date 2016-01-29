@@ -159,7 +159,7 @@ body {
 }
 
 .bio-title {
-    color: #559cb4;
+    color: #8c6f4b;
     font-size: 2.5em;
 }
 
@@ -193,15 +193,6 @@ body {
     text-align: center;
     color: #797d82;
     letter-spacing: .2em;
-}
-
-.layer-portfolio-pieces {
-    background-color: rgba(85, 156, 181, 0.5);
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .portfolio-piece {
@@ -621,6 +612,18 @@ hr {
     
 /* MAGLAY-LORDE CSS */
 
+.maglay2-bb {
+    position: relative;
+    background-image: url("../images/maglay1-cp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
 .maglay-bb {
     position: relative;
     background-image: url("../images/maglay2-cp.jpg");
@@ -648,6 +651,18 @@ hr {
 .dbdn-bb {
     position: relative;
     background-image: url("../images/dbdn-cp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.mdbc-bb {
+    position: relative;
+    background-image: url("../images/mdbc-cp-whale.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -690,13 +705,45 @@ hr {
     display: inline-block;
 }
 
-.fade {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   }
+.fade { 
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
 
 .fade:hover {
-  opacity: 0.5;
+    opacity: 0.5;
+}
+
+/* 404 CSS */
+
+.return-home {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    margin: 0 auto;
+    font-size: .75em;
+}
+
+.return-home a,
+.return-home a:link,
+.return-home a:visited {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.return-home a:hover,
+.return-home a:focus,
+.return-home a:active,
+.return-home .return-home-current,
+.return-home .return-home-current:link,
+.return-home .return-home-current:visited {
+
+  color: #fff;
 }
