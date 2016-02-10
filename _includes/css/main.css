@@ -672,6 +672,18 @@ hr {
     z-index: -1;
 }
 
+.pantone-bb {
+    position: relative;
+    background-image: url("../images/pantone-cp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
 .tools-icons-placement {
     position: relative;
     display: inline-block;
