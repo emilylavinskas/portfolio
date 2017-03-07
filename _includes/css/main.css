@@ -632,6 +632,18 @@ hr {
     z-index: -1;
 }
 
+.shakeys-bb {
+    position: relative;
+    background-image: url("../images/shakeys-cp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
 .pf-bb {
     position: relative;
     background-image: url("../images/pf-cp.jpg");
