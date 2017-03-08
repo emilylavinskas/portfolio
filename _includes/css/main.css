@@ -351,7 +351,7 @@ hr {
     }
     
     .portfolio-piece {
-        width: 50%;
+        width: 33.3333%;
         display: inline-block;
         float: left;
     }
@@ -448,7 +448,7 @@ hr {
     }
 
     .pp-process-images {
-        width: 50%;
+        width: 33.3333%;
         display: inline-block;
         float: left;
     }
